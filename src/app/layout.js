@@ -1,17 +1,26 @@
 import { Lato } from "next/font/google";
+import { Montserrat } from "next/font/google";
 import "./globals.css";
 
-const lato = Lato({ subsets: ["latin"] });
+export const lato = Lato({
+  weight: ["400", "700"],
+  subsets: ["latin"],
+});
+export const montserrat = Montserrat({
+  weight: ["400", "700"],
+  style: ["italic"],
+  subsets: ["latin"],
+});
 
 export const metadata = {
   title: "Doctor Who",
-  description: "Spanish language Doctor Who page",
+  description: "Doctor Who website in Spanish",
 };
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
+    <html lang="es">
+      <body className={lato.className}>{children}</body>
     </html>
   );
 }
