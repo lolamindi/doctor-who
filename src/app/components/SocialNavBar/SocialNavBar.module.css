@@ -1,0 +1,12 @@
+.socialMediaSection {
+  width: 15rem;
+  display: flex;
+}
+
+.socialMedia {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  list-style: none;
+  padding-left: 4rem;
+}

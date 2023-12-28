@@ -29,19 +29,6 @@
   margin-top: 1.75rem;
 }
 
-.socialMediaSection {
-  width: 15rem;
-  display: flex;
-}
-
 .searchBar {
   width: 15rem;
-}
-
-.socialMedia {
-  display: flex;
-  flex-direction: row;
-  gap: 1rem;
-  list-style: none;
-  padding-left: 4rem;
 }
