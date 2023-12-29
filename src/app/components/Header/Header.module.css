@@ -21,6 +21,7 @@
 .headerLink {
   color: var(--color-tertiary);
   text-decoration: none;
+  font: var(--font-principle-menu);
 }
 
 .mainLogo {
