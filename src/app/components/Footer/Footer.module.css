@@ -4,18 +4,10 @@
   background-color: var(--color-general-background);
   height: 4rem;
   align-items: center;
-  position: fixed;
-  width: 100vw;
+  width: 100%;
+  border-top: 1px solid var(--color-tertiary);
 }
 
-.footerLine {
-  position: absolute;
-  top: 0.5rem;
-  left: 0;
-  width: 100%;
-  height: 1.3px;
-  background-color: var(--color-tertiary);
-}
 
 .symbolLogo {
   margin-left: 5rem;

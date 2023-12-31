@@ -1,7 +1,7 @@
 import Link from "next/link";
-import styles from "@/app/components/Header/Header.module.css";
+import styles from "../Header/Header.module.css";
 import Image from "next/image";
-import logo from "../../assets/img/logos/logo.png";
+import logo from "../../../../public/assets/img/logos/logo.png";
 import SocialNavBar from "../SocialNavBar/SocialNavBar";
 
 function Header() {
@@ -15,7 +15,7 @@ function Header() {
             </Link>
           </li>
           <li>
-            <Link className={styles.headerLink} href="" target="_blank">
+            <Link className={styles.headerLink} href="/doctores" target="_blank">
               Doctores
             </Link>
           </li>

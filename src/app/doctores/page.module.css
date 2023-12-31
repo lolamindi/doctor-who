@@ -1,0 +1,49 @@
+.doctorTitle {
+  font: var(--font-principle-title);
+  margin-left: 4.5rem;
+}
+
+.doctorContainer {
+  background-color: var(--color-general-background);
+  width: 100%;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.doctorGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+  justify-content: center;
+  grid-gap: 1.2rem;
+  margin: 0 0 2.7rem 2rem;
+}
+
+.doctorImage {
+  margin-top: 2rem;
+}
+
+.doctorOrdinalNumber {
+  font: var(--font-secondary-title);
+}
+
+.actorName {
+  font: var(--font-text-italic);
+}
+
+.screenTime {
+  font: var(--font-text-regular);
+}
+
+.seeMoreButton {
+  background-color: var(--color-secondary);
+  border-radius: 20px;
+  width: 8rem;
+  height: 2rem;
+  border: none;
+  margin-top: 1.5rem;
+}
+
+.buttonLink {
+  color: var(--color-general-background);
+  font: var(--font-tertiary-title);
+}

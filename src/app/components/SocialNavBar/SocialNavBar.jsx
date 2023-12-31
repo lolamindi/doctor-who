@@ -1,10 +1,10 @@
 import Link from "next/link";
 import styles from "@/app/components/SocialNavBar/SocialNavBar.module.css";
 import Image from "next/image";
-import facebook from "../../assets/img/icons/facebook.svg";
-import twitter from "../../assets/img/icons/simple-icons_x.svg";
-import instagram from "../../assets/img/icons/mdi_instagram.svg";
-import tiktok from "../../assets/img/icons/ic_baseline-tiktok.svg";
+import facebook from "../../../../public/assets/img/icons/facebook.svg";
+import twitter from "../../../../public/assets/img/icons/simple-icons_x.svg";
+import instagram from "../../../../public/assets/img/icons/mdi_instagram.svg";
+import tiktok from "../../../../public/assets/img/icons/ic_baseline-tiktok.svg";
 
 function SocialNavBar() {
   return (
@@ -59,5 +59,4 @@ function SocialNavBar() {
   );
 }
 
-
-export default SocialNavBar
+export default SocialNavBar;
