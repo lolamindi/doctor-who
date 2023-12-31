@@ -33,17 +33,3 @@
 .screenTime {
   font: var(--font-text-regular);
 }
-
-.seeMoreButton {
-  background-color: var(--color-secondary);
-  border-radius: 20px;
-  width: 8rem;
-  height: 2rem;
-  border: none;
-  margin-top: 1.5rem;
-}
-
-.buttonLink {
-  color: var(--color-general-background);
-  font: var(--font-tertiary-title);
-}

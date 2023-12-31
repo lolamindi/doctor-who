@@ -1,7 +1,7 @@
 import styles from "../doctores/page.module.css";
 import { doctors } from "../../../public/assets/doctors.json";
 import Image from "next/image";
-import Link from "next/link";
+import Button from "../components/Button/Button";
 
 function DoctorList() {
   return (
@@ -23,11 +23,7 @@ function DoctorList() {
               <h3 className={styles.actorName}>{doctor.actor}</h3>
               <time className={styles.screenTime}>{doctor.screen_time}</time>
               <br />
-              <button className={styles.seeMoreButton}>
-            <Link className={styles.buttonLink} href="https://www.doctorwho.tv/" target="_blank">
-              Ver más
-            </Link>
-          </button>
+              <Button />
             </article>
           </li>
         ))}
