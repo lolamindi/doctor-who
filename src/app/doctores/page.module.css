@@ -1,6 +1,6 @@
 .doctorTitle {
   font: var(--font-principle-title);
-  margin-left: 4.5rem;
+  margin-left: 5.5rem;
 }
 
 .doctorContainer {
@@ -10,26 +10,3 @@
   padding-bottom: 2rem;
 }
 
-.doctorGrid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
-  justify-content: center;
-  grid-gap: 1.2rem;
-  margin: 0 0 2.7rem 2rem;
-}
-
-.doctorImage {
-  margin-top: 2rem;
-}
-
-.doctorOrdinalNumber {
-  font: var(--font-secondary-title);
-}
-
-.actorName {
-  font: var(--font-text-italic);
-}
-
-.screenTime {
-  font: var(--font-text-regular);
-}
