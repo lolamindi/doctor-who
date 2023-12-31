@@ -1,9 +1,3 @@
-body {
-  margin: 0;
-  padding: 0;
-  color: var(--color-tertiary);
-}
-
 :root {
   --color-general-background: #040521;
   --color-secondary: #ffc67e;
@@ -11,11 +5,34 @@ body {
 }
 
 :root {
-   --font-principle-title: 700 3rem "Lato", sans-serif;
-   --font-secondary-title: 700 2rem "Lato", sans-serif;
-   --font-tertiary-title: 700 1.5rem "Lato", sans-serif;
- 
-   --font-principle-menu: 400 0.75rem "Montserrat", sans-serif;
-   --font-text-italic: italic 400 1rem "Montserrat", sans-serif;
-   --font-text-regular: 400 1rem "Montserrat", sans-serif;
- }
+  --font-principle-title: 600 2rem "Lato", sans-serif;
+  --font-secondary-title: 700 1.2rem "Lato", sans-serif;
+  --font-tertiary-title: 700 1rem "Lato", sans-serif;
+
+  --font-principle-menu: 400 0.9rem "Montserrat", sans-serif;
+  --font-text-italic: italic 400 1.2rem "Montserrat", sans-serif;
+  --font-text-regular: 400 1rem "Montserrat", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  color: var(--color-tertiary);
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+}
+
+li {
+  text-decoration: none;
+}
+
+h1 {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
