@@ -1,0 +1,53 @@
+.meetTheDoctorPage {
+  background-color: var(--color-general-background);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 9rem;
+  overflow: hidden;
+}
+
+.doctorInfo {
+  display: flex;
+  flex-direction: column;
+  width: 31rem;
+  align-items: center;
+  padding-top: 3rem;
+}
+
+.specialButton {
+  width: 14rem;
+  height: 2.5rem;
+}
+
+.background {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 7rem;
+}
+
+.orangeSymbol {
+  margin-top: -17rem;
+  margin-right: -25rem;
+}
+
+.purpleSymbol {
+  margin-top: -7rem;
+}
+
+.meetDoctorNumber {
+  font: var(--font-principle-title);
+  text-align: center;
+}
+
+.doctorText {
+  font: var(--font-text-regular);
+  text-align: center;
+  line-height: 1.2;
+}
+
+.doctorImage {
+  padding-top: 0.8rem;
+}
