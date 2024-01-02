@@ -13,7 +13,7 @@ return (
           className={styles.doctorImage}
           src={doctor.image}
           width={210}
-          height={300}
+          height={290}
           alt={`${doctor.doctor}`}
         />
         <h3 className={styles.doctorOrdinalNumber}>{doctor.doctor}</h3>

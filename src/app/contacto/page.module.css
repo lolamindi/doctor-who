@@ -1,0 +1,81 @@
+.contactPage {
+  background-color: var(--color-general-background);
+  display: flex;
+  flex-direction: row;
+}
+
+.symbolSection {
+  width: 40%;
+  margin-top: 3.5rem;
+  margin-left: 9rem;
+}
+
+.sendMessageText {
+  font: var(--font-principle-title);
+  width: 25rem;
+  text-align: center;
+}
+
+.blueSymbol {
+  margin-left: 4rem;
+}
+
+.whiteSymbol {
+  margin-top: -10.5rem;
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+}
+
+.orangeSymbol {
+  margin-top: -12rem;
+  margin-left: 11rem;
+}
+
+.contactForm {
+  margin-top: 3.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 24rem;
+  margin-left: 7rem;
+}
+
+.nameContact,
+.emailContact {
+  height: 3rem;
+}
+
+.messageContact {
+  height: 12rem;
+}
+
+.nameContact,
+.emailContact,
+.messageContact {
+  background-color: var(--color-contact-form);
+  font: var(--font-tertiary-title);
+  border: 1px solid var(--color-tertiary);
+  color: var(--color-tertiary);
+}
+
+.nameContact::placeholder,
+.emailContact::placeholder,
+.messageContact::placeholder {
+  color: var(--color-tertiary);
+  padding-left: 1rem;
+}
+
+.messageContact::placeholder {
+  padding-top: 1rem;
+}
+
+.sendButton {
+  background-color: var(--color-secondary);
+  color: var(--color-general-background);
+  font: var(--font-tertiary-title);
+  border-radius: 20px;
+  width: 8rem;
+  height: 2rem;
+  border: none;
+  z-index: 1;
+}

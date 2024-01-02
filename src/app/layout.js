@@ -1,3 +1,4 @@
+import Head from 'next/head';
 import { Lato } from "next/font/google";
 import { Montserrat } from "next/font/google";
 import "./global.css";
@@ -22,6 +23,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="es">
+       <Head>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
       <body>
         <Header />
         <main>{children}</main>
@@ -31,14 +35,3 @@ export default function RootLayout({ children }) {
   );
 }
 
-// export default function RootLayout({ children }) {
-//   return (
-//     <html lang="es">
-//       <body>
-//         <Header />
-//         <main>{children}</main>
-//         <Footer />
-//       </body>
-//     </html>
-//   );
-// }

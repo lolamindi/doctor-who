@@ -1,7 +1,7 @@
 import Button from "../components/Button/Button";
 import styles from "../conoce-a/page.module.css";
-import photo from "../../../public/assets/img/doctors/Thirteenth_Doctor_Jodie_Whittaker.jpg";
 import Image from "next/image";
+import photo from "../../../public/assets/img/doctors/Thirteenth_Doctor_Jodie_Whittaker.jpg";
 import resistance from "../../../public/assets/img/svg/resistencia.svg";
 import persistance from "../../../public/assets/img/svg/persistencia-2.svg";
 
@@ -16,15 +16,15 @@ function MeetTheDoctor() {
       <Image
         className={styles.purpleSymbol}
         src={persistance}
-        width={300}
-        height={300}
+        width={320}
+        height={320}
         alt="persistencia symbol"
       />
       <Image
         className={styles.orangeSymbol}
         src={resistance}
-        width={450}
-        height={450}
+        width={480}
+        height={480}
         alt="resistencia symbol"
       />
       </div>
