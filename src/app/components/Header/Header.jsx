@@ -10,17 +10,17 @@ function Header() {
       <nav className={styles.navigationSection}>
         <ul className={styles.pageNavigations}>
           <li>
-            <Link className={styles.headerLink} href="" target="_blank">
+            <Link className={styles.headerLink} href="/conoce-a">
               Conoce a
             </Link>
           </li>
           <li>
-            <Link className={styles.headerLink} href="/doctores" target="_blank">
+            <Link className={styles.headerLink} href="/doctores">
               Doctores
             </Link>
           </li>
           <li>
-            <Link className={styles.headerLink} href="" target="_blank">
+            <Link className={styles.headerLink} href="">
               Contacto
             </Link>
           </li>
@@ -31,7 +31,7 @@ function Header() {
         src={logo}
         width={120}
         height={120}
-        alt="Official Doctor Who logo"
+        alt="Doctor Who logo"
       />
       <form className={styles.searchBar}>
         <input type="text" placeholder="Buscar" />

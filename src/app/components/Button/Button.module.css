@@ -5,9 +5,11 @@
   height: 2rem;
   border: none;
   margin-top: 1.5rem;
+  z-index: 1;
 }
 
 .buttonLink {
   color: var(--color-general-background);
   font: var(--font-tertiary-title);
 }
+
