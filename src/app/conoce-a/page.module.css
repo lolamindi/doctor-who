@@ -4,7 +4,7 @@
   flex-direction: row;
   justify-content: center;
   gap: 9rem;
-  overflow: hidden;
+  padding-top: 1rem;
 }
 
 .doctorInfo {
@@ -34,7 +34,7 @@
 }
 
 .purpleSymbol {
-  margin-top: -7rem;
+  margin-top: -6rem;
 }
 
 .meetDoctorNumber {
@@ -50,4 +50,5 @@
 
 .doctorImage {
   padding-top: 0.8rem;
+  z-index: 1;
 }

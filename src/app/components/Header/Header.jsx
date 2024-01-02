@@ -20,12 +20,13 @@ function Header() {
             </Link>
           </li>
           <li>
-            <Link className={styles.headerLink} href="">
+            <Link className={styles.headerLink} href="/contacto">
               Contacto
             </Link>
           </li>
         </ul>
       </nav>
+      <Link href="/">
       <Image
         className={styles.mainLogo}
         src={logo}
@@ -33,6 +34,7 @@ function Header() {
         height={120}
         alt="Doctor Who logo"
       />
+      </Link>
       <form className={styles.searchBar}>
         <input type="text" placeholder="Buscar" />
       </form>
