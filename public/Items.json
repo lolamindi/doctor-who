@@ -1,0 +1,18 @@
+{
+  "items": {
+    "bootstrap": [
+      {
+        "id": 1,
+        "title": "The Giggle",
+        "body": "Doctor Who centro de control",
+        "imageUrl": "/public/assets/img/carousel/carousel-2.jpg"
+      },
+      {
+        "id": 2,
+        "title": "Allons-y",
+        "body": "Doctor Who y su asistente corriendo",
+        "imageUrl": "/public/assets/img/carousel/carousel-1.jpg"
+      }
+    ]
+  }
+}
