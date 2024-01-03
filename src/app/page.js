@@ -1,6 +1,10 @@
-import styles from "./page.module.css";
 import "./layout";
+// import BootstrapCarousel from "../../carousels/Bootstrap";
 
 export default function Home() {
-  return <h1>Doctor Who</h1>;
+  return (
+    <section>
+      {/* <BootstrapCarousel /> */}
+    </section>
+  );
 }
