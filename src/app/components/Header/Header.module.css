@@ -4,7 +4,7 @@
   background-color: var(--color-general-background);
   height: 6rem;
   align-items: center;
-  width: 100%;
+  width: auto;
 }
 
 .navigationSection {
@@ -31,5 +31,35 @@
 }
 
 .searchBar {
-  width:10rem;
+  width: 10rem;
+}
+
+.hamburgerMenu {
+  display: none;
+}
+
+
+@media (max-width: 1024px) {
+
+  .navigationSection {
+    display: none;
+  }
+
+  .searchBar {
+    display: none;
+  }
+
+  .specialSocialNavBar {
+    display: none;
+  }
+
+  .hamburgerMenu {
+    display: flex;
+    margin-right: 1rem;
+  }
+
+  .mainLogo {
+    margin-top: 3rem;
+    margin-left: 1rem;
+  }
 }

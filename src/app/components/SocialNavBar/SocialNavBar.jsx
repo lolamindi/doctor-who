@@ -6,9 +6,9 @@ import twitter from "../../../../public/assets/img/icons/simple-icons_x.svg";
 import instagram from "../../../../public/assets/img/icons/mdi_instagram.svg";
 import tiktok from "../../../../public/assets/img/icons/ic_baseline-tiktok.svg";
 
-function SocialNavBar() {
+function SocialNavBar({additionalStyles}) {
   return (
-    <nav className={styles.socialMediaSection}>
+    <nav className={`${styles.socialMediaSection} ${additionalStyles}`}>
       <ul className={styles.socialMedia}>
         <li>
           <Link href="https://www.facebook.com/DoctorWho/" target="_blank">

@@ -1,6 +1,5 @@
 import Head from 'next/head';
-import { Lato } from "next/font/google";
-import { Montserrat } from "next/font/google";
+import { Lato, Montserrat } from "next/font/google";
 import "./global.css";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
