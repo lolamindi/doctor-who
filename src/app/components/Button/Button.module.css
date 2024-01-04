@@ -1,8 +1,8 @@
 .seeMoreButton {
   background-color: var(--color-secondary);
   border-radius: 20px;
-  width: 8rem;
-  height: 2rem;
+  width: 10rem;
+  height: 2.5rem;
   border: none;
   margin-top: 1.5rem;
   z-index: 1;
@@ -12,4 +12,3 @@
   color: var(--color-general-background);
   font: var(--font-tertiary-title);
 }
-

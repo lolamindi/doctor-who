@@ -2,18 +2,20 @@
   background-color: var(--color-general-background);
   display: flex;
   flex-direction: row;
-}
-
-.symbolSection {
-  width: 40%;
-  margin-top: 3.5rem;
-  margin-left: 9rem;
+  padding-bottom: 2rem;
+  overflow-x: hidden;
 }
 
 .sendMessageText {
   font: var(--font-principle-title);
   width: 25rem;
   text-align: center;
+}
+
+.symbolSection {
+  width: 40%;
+  margin-top: 3.5rem;
+  margin-left: 9rem;
 }
 
 .blueSymbol {
@@ -36,7 +38,7 @@
   display: flex;
   flex-direction: column;
   gap: 2rem;
-  width: 24rem;
+  width: 30%;
   margin-left: 7rem;
 }
 
@@ -74,8 +76,30 @@
   color: var(--color-general-background);
   font: var(--font-tertiary-title);
   border-radius: 20px;
-  width: 8rem;
-  height: 2rem;
+  width: 10rem;
+  height: 2.5rem;
   border: none;
   z-index: 1;
+}
+
+@media (max-width: 1024px) {
+
+  .contactPage {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contactForm {
+    margin-top: -25rem;
+    width: 80%;
+    margin-left: 0;
+  }
+
+  .symbolSection {
+    margin-right: 29rem;
+  }
+
+  .sendMessageText {
+    margin-left: 2rem;
+  }
 }

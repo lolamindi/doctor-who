@@ -10,7 +10,14 @@ function MeetTheDoctor() {
     <section className={styles.meetTheDoctorPage}>
     <article className={styles.doctorInfo}>
       <h1 className={styles.meetDoctorNumber}>Conoce a ... decimotercera doctor</h1>
-      <p className={styles.doctorText}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <Image
+        className={styles.doctorPhotoMobile}
+        src={photo}
+        width={250}
+        height={350}
+        alt="Decimotercera Doctor Who"
+      />
+      <p className={styles.doctorText}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in officia deserunt mollit anim id est laborum.</p>
       <Button additionalStyles={styles.specialButton}></Button>
       <div className={styles.background}>
       <Image
@@ -31,7 +38,7 @@ function MeetTheDoctor() {
       </article>
       <section className={styles.doctorImage}>
       <Image
-        className={styles.doctorPhoto}
+        className={styles.doctorPhotoDesktop}
         src={photo}
         width={330}
         height={500}

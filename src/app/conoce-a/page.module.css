@@ -3,8 +3,10 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
+  width: 100%;
   gap: 9rem;
   padding-top: 1rem;
+  overflow-x: hidden;
 }
 
 .doctorInfo {
@@ -17,7 +19,6 @@
 
 .specialButton {
   width: 14rem;
-  height: 2.5rem;
 }
 
 .background {
@@ -50,5 +51,53 @@
 
 .doctorImage {
   padding-top: 0.8rem;
-  z-index: 1;
+}
+
+.doctorPhotoMobile {
+  display: none;
+}
+
+@media (max-width: 1024px) {
+
+  .meetTheDoctorPage {
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 3rem;
+  }
+
+  .doctorPhotoDesktop {
+    display: none;
+  }
+
+  .doctorPhotoMobile {
+    display: flex;
+    position: relative;
+  }
+
+  .background {
+    margin-left: -20rem;
+  }
+
+  .purpleSymbol {
+    margin-top: -36rem;
+    margin-right: 24rem;
+  }
+
+  .orangeSymbol {
+    margin-top: -49rem;
+    margin-left: -40rem;
+  }
+
+  .meetDoctorNumber {
+    margin-top: -12rem;
+    width: 20rem;
+    padding-bottom: 1.5rem;
+  }
+
+  .doctorText {
+    width: 20rem;
+    position: relative;
+    margin-top: 2rem;
+  }
 }

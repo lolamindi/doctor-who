@@ -53,7 +53,7 @@ function ContactPage() {
           placeholder="Mensaje*"
         ></textarea>
         <button className={styles.sendButton} type="submit">
-          Send
+          Enviar
         </button>
       </form>
     </section>

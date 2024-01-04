@@ -3,6 +3,8 @@ import styles from "../Header/Header.module.css";
 import Image from "next/image";
 import logo from "../../../../public/assets/img/logos/logo.png";
 import SocialNavBar from "../SocialNavBar/SocialNavBar";
+import search from "../../../../public/assets/img/icons/material-symbols-light_search.svg";
+import hamburger from "../../../../public/assets/img/icons/burger-menu.svg";
 
 function Header() {
   return (
@@ -36,9 +38,25 @@ function Header() {
       />
       </Link>
       <form className={styles.searchBar}>
+      <label className={styles.searchLabel}>
+        <Image
+          className={styles.searchLogo}
+          src={search}
+          width={17}
+          height={17}
+          alt="buscar"
+        />
         <input type="text" placeholder="Buscar" />
+      </label>
       </form>
-      <SocialNavBar />
+      <Image
+        className={styles.hamburgerMenu}
+        src={hamburger}
+        width={40}
+        height={40}
+        alt="menu hamburguesa"
+      />
+      <SocialNavBar additionalStyles={styles.specialSocialNavBar}></SocialNavBar>
     </header>
   );
 }
