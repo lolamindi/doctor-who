@@ -6,14 +6,23 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "test": "vitest"
   },
   "dependencies": {
+    "keep-react": "^1.1.0",
     "mini-css-extract-plugin": "^2.7.6",
     "next": "14.0.4",
     "react": "^18",
     "react-bootstrap": "^2.9.2",
     "react-dom": "^18",
     "react-toastify": "^9.1.3"
+  },
+  "devDependencies": {
+    "@iconify/react": "^4.1.1",
+    "@testing-library/react": "^14.1.2",
+    "@vitejs/plugin-react": "^4.2.1",
+    "jsdom": "^23.1.0",
+    "vitest": "^1.1.3"
   }
 }
