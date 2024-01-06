@@ -34,6 +34,19 @@
 
 .searchBar {
   width: 10rem;
+  display: flex;
+}
+
+.searchInputArea {
+ border-radius: 40px;
+ background-color: var(--color-general-background);
+ color: var(--color-tertiary);
+ border: none;
+}
+
+.searchInputArea::placeholder {
+  color: var(--color-tertiary);
+  font: var(--font-principle-menu);
 }
 
 .dropDownMenu {
@@ -127,6 +140,7 @@
     margin-top: 0;
     height: 5.5rem;
     width: 5.5rem;
+    z-index: 2;
   }
 
   .navigationSection {
@@ -137,6 +151,24 @@
     display: none;
   }
 
+  .magnifyingGlassMobile {
+    margin-left: 4.8rem;
+    margin-top: 0.6rem;
+  }
+  .searchInputAreaMobile {
+    background-color: var(--color-general-background);
+    color: var(--color-tertiary);
+    border: none;
+    height: 35px;
+    margin-top: 0;
+   }
+   
+   .searchInputAreaMobile::placeholder {
+     color: var(--color-tertiary);
+     font: var(--font-text-hamburger);
+     padding-bottom: 3rem;
+   }
+
   .specialSocialNavBar {
     display: none;
   }
@@ -144,6 +176,7 @@
   .menuContainer {
     display: flex;
     margin-top: 1rem;
+    z-index: 2;
   }
 
   .dropDownMenu {
@@ -152,8 +185,8 @@
     justify-content: center;
     position: absolute;
     top: 0;
-    margin-top: 6rem;
-    width: 89%;
+    margin-top: 4rem;
+    width: 92%;
     z-index: 1;
     background-color: var(--color-general-background);
     color: var(--color-tertiary);
@@ -165,6 +198,7 @@
     padding: 0;
     border: 0;
     transition: height 300ms cubic-bezier(0.23, 1, 0.32, 1);
+    font: var(--font-text-hamburger);
   }
 
   .hamburgerMenu:checked~.dropDownMenu li {
@@ -194,7 +228,7 @@
 
   .specialSocialNavBarMobile {
     display: flex;
-    margin-left: 1rem;
+    margin-left: 3rem 0 1rem 2rem;
   }
 
 }

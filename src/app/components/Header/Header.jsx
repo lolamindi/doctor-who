@@ -3,8 +3,7 @@ import styles from "../Header/Header.module.css";
 import Image from "next/image";
 import logo from "../../../../public/assets/img/logos/logo.png";
 import SocialNavBar from "../SocialNavBar/SocialNavBar";
-import search from "../../../../public/assets/img/icons/material-symbols-light_search.svg";
-import hamburger from "../../../../public/assets/img/icons/burger-menu.svg";
+import magnifyingGlass from "../../../../public/assets/img/icons/material-symbols-light_search.svg";
 
 function Header() {
   return (
@@ -38,18 +37,21 @@ function Header() {
         />
       </Link>
       <form className={styles.searchBar}>
+        <Image
+          className={styles.magnifyingGlass}
+          src={magnifyingGlass}
+          width={22}
+          height={22}
+          alt="lupa"
+        />
         <label className={styles.searchLabel}>
-          <Image
-            className={styles.searchLogo}
-            src={search}
-            width={17}
-            height={17}
-            alt="buscar"
+          <input
+            className={styles.searchInputArea}
+            type="text"
+            placeholder=" Buscar"
           />
-          <input type="text" placeholder="Buscar" />
         </label>
       </form>
-
       <input id="menu" className={styles.hamburgerMenu} type="checkbox" />
       <label className={styles.menuContainer} htmlFor="menu">
         <div className={styles.menuButton}></div>
@@ -70,11 +72,28 @@ function Header() {
             Contacto
           </Link>
         </li>
-        <br />
         <li>
-        <SocialNavBar
-        additionalStyles={styles.specialSocialNavBarMobile}
-      ></SocialNavBar>
+          <form className={styles.searchBarMobile}>
+            <Image
+              className={styles.magnifyingGlassMobile}
+              src={magnifyingGlass}
+              width={24}
+              height={24}
+              alt="lupa"
+            />
+            <label className={styles.searchLabelMobile}>
+              <input
+                className={styles.searchInputAreaMobile}
+                type="text"
+                placeholder=" Buscar"
+              />
+            </label>
+          </form>
+        </li>
+        <li>
+          <SocialNavBar
+            additionalStyles={styles.specialSocialNavBarMobile}
+          ></SocialNavBar>
         </li>
       </ul>
       <SocialNavBar

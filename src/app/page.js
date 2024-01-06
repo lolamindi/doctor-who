@@ -1,61 +1,28 @@
 "use client";
-import React, { useState, useEffect, useRef } from "react";
-import styles from "../../src/app/page.module.css";
 import Image from "next/image";
+import { Carousel } from "keep-react";
 import giggle from "../../public/assets/img/carousel/carousel-2.jpg";
 import allonsy from "../../public/assets/img/carousel/carousel-1.webp";
-import Button from "./components/Button/Button";
 
-export default function Home() {
-  const [currentIndex, setCurrentIndex] = useState(0);
-  const timerRef = useRef(null);
-
-  const images = [allonsy, giggle];
-
-  const startTimer = () => {
-    timerRef.current = setInterval(() => {
-      setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
-    }, 5000);
-  };
-
-  useEffect(() => {
-    startTimer();
-    return () => clearInterval(timerRef.current);
-  }, []);
-
-  return (
-    <section className={styles.carouselContainer}>
-      <div className={styles.slides}>
-        {images.map((image, index) => (
-          <div
-            key={index}
-            className={`${styles.carouselImage} ${
-              index === currentIndex ? styles.active : ""
-            }`}
-          >
-            <Image
-              src={image}
-              layout="responsive"
-              objectFit="cover"
-              width={400}
-              height={400}
-              alt={`Carousel Image ${index + 1}`}
-            />
-          </div>
-        ))}
-      </div>
-      <Button additionalStyles={styles.specialButton}></Button>
-      <div className={styles.dots}>
-        {images.map((_, index) => (
-          <div
-            key={index}
-            className={`${styles.dot} ${
-              index === currentIndex ? styles.activeDot : ""
-            }`}
-            onClick={() => handleDotClick(index)}
+const CarouselComponent = () => {
+      return (
+        <Carousel slideInterval={5000} showControls={true} indicators={true}>
+          <Image
+            src= {giggle}
+            alt="The Giggle"
+            height={400}
+            width={910}
           />
-        ))}
-      </div>
-    </section>
-  );
-}
+          <Image
+            src= {allonsy}
+            alt="Allons-y!"
+            height={400}
+            width={910}
+          />
+        </Carousel>
+      )
+    }
+
+ export default CarouselComponent;   
+
+  
