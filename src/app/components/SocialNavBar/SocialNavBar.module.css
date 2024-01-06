@@ -7,13 +7,7 @@
   flex-direction: row;
   gap: 1rem;
   list-style: none;
-  padding-left: 4rem;
 }
 
-@media (max-width: 1024px) {
-  .socialMedia {
-    padding-left: 7rem;
-  }
-}
 
 

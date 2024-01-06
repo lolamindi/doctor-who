@@ -13,7 +13,9 @@ function Footer() {
         height={25}
         alt="Doctor Who symbol"
       />
-      <SocialNavBar />
+      <SocialNavBar
+        additionalStyles={styles.specialSocialNavBar}
+      ></SocialNavBar>
     </footer>
   );
 }

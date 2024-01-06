@@ -29,34 +29,57 @@ function Header() {
         </ul>
       </nav>
       <Link href="/">
-      <Image
-        className={styles.mainLogo}
-        src={logo}
-        width={120}
-        height={120}
-        alt="Doctor Who logo"
-      />
+        <Image
+          className={styles.mainLogo}
+          src={logo}
+          width={120}
+          height={120}
+          alt="Doctor Who logo"
+        />
       </Link>
       <form className={styles.searchBar}>
-      <label className={styles.searchLabel}>
-        <Image
-          className={styles.searchLogo}
-          src={search}
-          width={17}
-          height={17}
-          alt="buscar"
-        />
-        <input type="text" placeholder="Buscar" />
-      </label>
+        <label className={styles.searchLabel}>
+          <Image
+            className={styles.searchLogo}
+            src={search}
+            width={17}
+            height={17}
+            alt="buscar"
+          />
+          <input type="text" placeholder="Buscar" />
+        </label>
       </form>
-      <Image
-        className={styles.hamburgerMenu}
-        src={hamburger}
-        width={40}
-        height={40}
-        alt="menu hamburguesa"
-      />
-      <SocialNavBar additionalStyles={styles.specialSocialNavBar}></SocialNavBar>
+
+      <input id="menu" className={styles.hamburgerMenu} type="checkbox" />
+      <label className={styles.menuContainer} htmlFor="menu">
+        <div className={styles.menuButton}></div>
+      </label>
+      <ul className={styles.dropDownMenu}>
+        <li>
+          <Link className={styles.headerLink} href="/conoce-a">
+            Conoce a
+          </Link>
+        </li>
+        <li>
+          <Link className={styles.headerLink} href="/doctores">
+            Doctores
+          </Link>
+        </li>
+        <li>
+          <Link className={styles.headerLink} href="/contacto">
+            Contacto
+          </Link>
+        </li>
+        <br />
+        <li>
+        <SocialNavBar
+        additionalStyles={styles.specialSocialNavBarMobile}
+      ></SocialNavBar>
+        </li>
+      </ul>
+      <SocialNavBar
+        additionalStyles={styles.specialSocialNavBarDesktop}
+      ></SocialNavBar>
     </header>
   );
 }
