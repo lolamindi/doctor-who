@@ -13,6 +13,7 @@
   --font-principle-menu: 400 0.9rem "Montserrat", sans-serif;
   --font-text-italic: italic 400 1.2rem "Montserrat", sans-serif;
   --font-text-regular: 400 1rem "Montserrat", sans-serif;
+  --font-text-hamburger: 600 1.2rem "Montserrat", sans-serif;
 }
 
 body {
