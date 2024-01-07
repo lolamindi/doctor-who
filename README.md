@@ -2,7 +2,7 @@
 
 Solo project involving the creation of a Spanish-language website for the classic BBC series 'Doctor Who'. 
 
-![Home page](<Screenshot (87)-2.png>)
+![Home page](<Home.png>)
 
 ## Table of Contents
 
@@ -12,14 +12,14 @@ Solo project involving the creation of a Spanish-language website for the classi
 - [Testing](#testing)
 
 ## Images
-![Doctores page Desktop version](<Screenshot (77).png>)
-![Conoce a page Desktop version](<Screenshot (78).png>)
-![Contacto page Desktop version showing error message alert](<Screenshot (83).png>)
-![Contacto page Desktop version showing console log and the sent message pop-up](<Screenshot (85).png>)
-![Conoce a page Mobile version with closed hamburger menu](<Screenshot (88).png>)
-![Open hamburger menu](<Screenshot (80).png>)
-![Doctores page Mobile version](<Screenshot (81).png>)
-![Contacto page Mobile version](<Screenshot (82).png>)
+![Doctores page Desktop version](<Doctores.png>)
+![Conoce a page Desktop version](<Conoce.png>)
+![Contacto page Desktop version showing error message alert](<Contacto.png>)
+![Contacto page Desktop version showing console log and the sent message pop-up](<Message.png>)
+![Conoce a page Mobile version with closed hamburger menu](HamburgerClosed.png)
+![Hamburger menu](<HamburgerOpen.png>)
+![Doctores page Mobile version](<DoctoresMobile.png>)
+![Contacto page Mobile version](<ContactoMobile.png>)
 
 
 ## Description

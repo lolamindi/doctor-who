@@ -3,7 +3,6 @@ import styles from "../app/page.module.css";
 import Image from "next/image";
 import Link from 'next/link';
 import allonsy from "../../public/assets/img/carousel/carousel-1.webp";
-import crop from "../../public/assets/img/carousel/crop-carousel.jpg";
 
 function Home() {
   return (
@@ -28,12 +27,6 @@ function Home() {
       </div>
       <h1 className={styles.title}>Allons-y!</h1>
       <div className={styles.imageMobile}>
-        <Image
-          src={crop}
-          width={400}
-          height={700}
-          alt={"Allons-y!"}
-        />
       </div>
     </section>
   );
