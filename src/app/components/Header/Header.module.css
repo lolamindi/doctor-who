@@ -32,23 +32,6 @@
   position: relative;
 }
 
-.searchBar {
-  width: 10rem;
-  display: flex;
-}
-
-.searchInputArea {
- border-radius: 40px;
- background-color: var(--color-general-background);
- color: var(--color-tertiary);
- border: none;
-}
-
-.searchInputArea::placeholder {
-  color: var(--color-tertiary);
-  font: var(--font-principle-menu);
-}
-
 .dropDownMenu {
   display: none;
 }
@@ -72,11 +55,13 @@
   justify-content: center;
   align-items: center;
 }
+.specialSearchMobile {
+  display: none;
+}
 
 .specialSocialNavBarMobile {
   display: none;
 }
-
 
 .hamburgerMenu {
   display: none;
@@ -147,30 +132,15 @@
     display: none;
   }
 
-  .searchBar {
+  .specialSearchDesktop {
     display: none;
   }
 
-  .magnifyingGlassMobile {
-    margin-top: 0.6rem;
-    margin-left: 5rem;
-  }
-  .searchInputAreaMobile {
-    background-color: var(--color-general-background);
-    color: var(--color-tertiary);
-    border: none;
-    height: 35px;
-    margin-top: 0;
-   }
-   
-   .searchInputAreaMobile::placeholder {
-     color: var(--color-tertiary);
-     font: var(--font-text-hamburger);
-     padding-bottom: 3rem;
-   }
-
-  .specialSocialNavBar {
-    display: none;
+  .specialSearchMobile {
+    display: flex;
+    flex-direction: row;
+    margin-left: 6rem;
+    margin-top: 0.5rem;
   }
 
   .menuContainer {
@@ -212,7 +182,6 @@
     justify-items: center;
     color: var(--color-tertiary);
     padding: 0;
-    margin: 0;
   }
 
   .dropDownMenu>li>a {

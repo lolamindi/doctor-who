@@ -1,0 +1,22 @@
+.searchBar {
+  width: 10rem;
+  display: flex;
+}
+
+.searchInputArea {
+ border-radius: 40px;
+ background-color: var(--color-general-background);
+ color: var(--color-tertiary);
+ border: none;
+}
+
+.searchInputArea::placeholder {
+  color: var(--color-tertiary);
+  font: var(--font-principle-menu);
+}
+
+.submitButton {
+  background-color: var(--color-general-background);
+  border: none;
+  margin-left: 1rem;
+}
