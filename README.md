@@ -1,36 +1,46 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# DOCTOR WHO PROJECT 
 
-## Getting Started
+Solo project involving the creation of a Spanish-language website for the classic BBC series 'Doctor Who'. 
 
-First, run the development server:
+![Home page](<Screenshot (87)-2.png>)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Table of Contents
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- [Images](#images)
+- [Description](#description)
+- [Technologies](#technologies)
+- [Testing](#testing)
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Images
+![Doctores page Desktop version](<Screenshot (77).png>)
+![Conoce a page Desktop version](<Screenshot (78).png>)
+![Contacto page Desktop version showing error message alert](<Screenshot (83).png>)
+![Contacto page Desktop version showing console log and the sent message pop-up](<Screenshot (85).png>)
+![Hamburger menu](<Screenshot (80).png>)
+![Doctores page Mobile version](<Screenshot (81).png>)
+![Contacto page Mobile version](<Screenshot (82).png>)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+## Description
 
-To learn more about Next.js, take a look at the following resources:
+This project involved the creation of multiple-page responsive website in React with Next.js. The site design, as specified by the fictional client via a detailed Figma mock-up, features various unique elements and pages. These include a page featuring cards for all the actors to have featured in the series, a working contact form, and a hamburger menu in the mobile version. 
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Technologies
 
-## Deploy on Vercel
+- Visual Studio Code 
+- CSS Modules 
+- React v. 18
+- Next.js v. 14.0.4
+- Node.js v20.9.0
+- Vitest v. 1.1.3
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Testing
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Testing involved verifying the the correct rendering of the Button component and the existence of a message area in the contact form. All tests passed. To perform these same tests, it is necessary to install Node.js and follow the Next.js guidelines for using vitest with the framework.    
+   
+
+---
+
+Back to: [Table of Contents](#table-of-contents)
+

@@ -140,7 +140,7 @@
     margin-top: 0;
     height: 5.5rem;
     width: 5.5rem;
-    z-index: 2;
+    z-index: 5;
   }
 
   .navigationSection {
@@ -152,8 +152,8 @@
   }
 
   .magnifyingGlassMobile {
-    margin-left: 4.8rem;
     margin-top: 0.6rem;
+    margin-left: 5rem;
   }
   .searchInputAreaMobile {
     background-color: var(--color-general-background);
@@ -176,7 +176,7 @@
   .menuContainer {
     display: flex;
     margin-top: 1rem;
-    z-index: 2;
+    z-index: 4;
   }
 
   .dropDownMenu {
@@ -187,7 +187,7 @@
     top: 0;
     margin-top: 4rem;
     width: 92%;
-    z-index: 1;
+    z-index: 3;
     background-color: var(--color-general-background);
     color: var(--color-tertiary);
   }
@@ -220,6 +220,7 @@
     font: var(--font-text-hamburger);
     margin-top: 1rem;
     margin-left: 6rem;
+    padding-bottom: 1rem;
   }
 
   .specialSocialNavBarDesktop {
@@ -228,7 +229,8 @@
 
   .specialSocialNavBarMobile {
     display: flex;
-    margin-left: 3rem 0 1rem 2rem;
+    margin-left: 0.8rem;
+    padding-top: 0.5rem;
   }
 
 }

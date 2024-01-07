@@ -85,7 +85,7 @@ function Header() {
               <input
                 className={styles.searchInputAreaMobile}
                 type="text"
-                placeholder=" Buscar"
+                placeholder="Buscar"
               />
             </label>
           </form>
