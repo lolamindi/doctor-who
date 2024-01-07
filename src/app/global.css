@@ -6,6 +6,7 @@
 }
 
 :root {
+  --font-home: 700 3rem "Lato", sans-serif;
   --font-principle-title: 700 2rem "Lato", sans-serif;
   --font-secondary-title: 700 1.2rem "Lato", sans-serif;
   --font-tertiary-title: 700 1rem "Lato", sans-serif;

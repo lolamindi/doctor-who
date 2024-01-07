@@ -1,28 +1,42 @@
 "use client";
+import styles from "../app/page.module.css";
 import Image from "next/image";
-import { Carousel } from "keep-react";
-import giggle from "../../public/assets/img/carousel/carousel-2.jpg";
+import Link from 'next/link';
 import allonsy from "../../public/assets/img/carousel/carousel-1.webp";
+import crop from "../../public/assets/img/carousel/crop-carousel.jpg";
 
-const CarouselComponent = () => {
-      return (
-        <Carousel slideInterval={5000} showControls={true} indicators={true}>
-          <Image
-            src= {giggle}
-            alt="The Giggle"
-            height={400}
-            width={910}
-          />
-          <Image
-            src= {allonsy}
-            alt="Allons-y!"
-            height={400}
-            width={910}
-          />
-        </Carousel>
-      )
-    }
+function Home() {
+  return (
+    <section className={styles.carouselContainer}>
+      <div className={styles.cover}>
+        <Image
+          src={allonsy}
+          layout="responsive"
+          width={400}
+          height={400}
+          alt={"Allons-y!"}
+        />
+        <button className={styles.seeNowButton}>
+          <Link
+            className={styles.buttonLink}
+            href="https://www.doctorwho.tv/"
+            target="_blank"
+          >
+            Ver ahora
+          </Link>
+        </button>
+      </div>
+      <h1 className={styles.title}>Allons-y!</h1>
+      <div className={styles.imageMobile}>
+        <Image
+          src={crop}
+          width={400}
+          height={700}
+          alt={"Allons-y!"}
+        />
+      </div>
+    </section>
+  );
+}
 
- export default CarouselComponent;   
-
-  
+export default Home;
