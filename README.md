@@ -16,7 +16,8 @@ Solo project involving the creation of a Spanish-language website for the classi
 ![Conoce a page Desktop version](<Screenshot (78).png>)
 ![Contacto page Desktop version showing error message alert](<Screenshot (83).png>)
 ![Contacto page Desktop version showing console log and the sent message pop-up](<Screenshot (85).png>)
-![Hamburger menu](<Screenshot (80).png>)
+![Conoce a page Mobile version with closed hamburger menu](<Screenshot (88).png>)
+![Open hamburger menu](<Screenshot (80).png>)
 ![Doctores page Mobile version](<Screenshot (81).png>)
 ![Contacto page Mobile version](<Screenshot (82).png>)
 
